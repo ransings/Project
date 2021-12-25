@@ -1,0 +1,228 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+}
+
+.Page{
+	height: 820px;
+	width: 100%;
+	}
+                                                       /*Header Divisions*/
+.Header{
+	height:120px;
+	width:100%;
+	background-color:#101010;
+	color:White;
+	border-bottom: medium solid lime;
+	border-left: medium solid yellow; ; 
+	border-right: medium solid yellow;
+	border-radius: 10px;
+}
+
+.HomeD{
+	margin-top: -2.5%;
+}
+
+.LogOutD{
+	margin-top: -2%;
+}
+
+.Logo{
+	background-color: red;
+	width:35%;
+	height: 100%;
+	margin-left: 32%;
+	border-radius: 5px;
+}
+																	/* Header Title And Description */
+
+Label{
+	font-family: sans-serif;
+	margin-left:20%;
+	font-size: 30px;
+	Color:#ffff80;
+	
+	
+}
+
+.Desc{
+	font-size: 10px;
+	margin-left: 23%;
+	line-height: -20px;
+}
+																		/* Header Links */
+a.Home{
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: -2%;
+	
+}
+a.LogOut{
+	color:white;
+	font-size: 18px;
+	margin-left: 92%;
+}
+
+
+													                        /* Menu */
+div.menu{
+	height: 552px;
+    width: 20%;
+    background-color: Black;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+p.form{
+	margin-left:5%;
+	padding:2% 0% 2% 0%;
+}
+p{
+	margin-left:5%;
+	padding:3% 0% 2% 0%;
+}
+
+button {
+	margin-left: 0.5%;
+	margin-top: 7%;
+    font-family: serif;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding: 2px 5px;
+    border-style: inset;
+    border-radius: 5px;
+    width: 98%;
+}
+
+																				/* Content Div */
+																				
+.Body{
+		
+    background-color: black;
+    width: 80%;
+    height: 526px;
+    color: white;
+    border-radius: 10px;
+    margin: -552px 0px 0px 20%;
+    padding: 2% 0px 0px 0%;
+}	
+
+                                                         /* Body Labels */
+ #title{
+ color:white;
+ margin-left: 36%;
+ font-size: 35px;
+ line-height: 70px;
+ }		
+ 
+ #brand{
+ margin-left: 218px;
+    line-height: 50px;
+    font-size: 25px;
+ }
+ 
+ #model{
+margin-left: 30px;
+    line-height: 50px;
+    font-size: 25px;
+ }
+ 
+ #colors{
+ margin-left: 10%;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ #price{
+ margin-left: 44px;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ #type{
+ margin-left: 330px;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ #photo1{
+ margin-left: 214px;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ #photo2{
+ margin-left: 214px;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ #photo3{
+ margin-left: 214px;
+ line-height: 50px;
+ font-size:25px;
+ }
+ 
+ 																		/* inputs */
+ 																		
+input[type=text],select{
+	border-radius:7px; 
+	height: 25px;
+	width: 200px;	
+	margin-left: 20px; 
+	color:#250389; 
+	text-align: left; 
+	font-weight: bold;
+	background: aqua;
+	border: #2c059e medium outset;
+	padding: 1px;
+}
+
+input[type=text]:hover,select:hover,select:focus ,input[type=text]:focus{
+	
+	background: whirgb(31, 3, 88)oke;
+	border: #a8f512 medium outset;
+	padding: 1px;
+	
+}
+
+input[type=submit]{
+	background-color: blue;
+	color: white;
+	border-radius:5px;
+	padding:5px;
+	font-size:20px;
+	margin:50px 0px 0px 45%;
+}
+
+input[type=submit]:hover{
+	background-color: blue;
+	color: white;
+	border-radius:5px;
+	border-color:lime;
+	padding:5px;
+	font-size:25px;
+}
+
+input[type=file]{
+	background: black;
+	border-radius:50px;
+	margin-left:20px;
+	color:white;
+}
+
+input[type=file]:hover{
+	background: black;
+	border-radius:5px;
+	color:#e3f117;
+	font-size:15px;		
+}
+
+

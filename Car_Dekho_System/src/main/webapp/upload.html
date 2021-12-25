@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Upload Car</title>
+<link rel="stylesheet" href="style/upload.css">
+</head>
+
+<body>
+
+
+
+																<!-- Header -->
+<div class="Header">
+<div class="Logo">
+<br><br>
+<label> Car Dekho System </label><br>
+<label class="Desc">You Can Watch And Compare Cars Using Our Site</label>
+</div>
+<div class="HomeD">
+<a class="Home" href="HomeServlet">Home</a>
+</div>
+<div class="LogOutD">
+<a href="LogoutServlet1" class="LogOut">LogOut</a>
+</div>
+</div>
+
+																		<!-- Menu -->
+
+<div class="menu">
+<form action="AdminController" method="post">
+
+<button name="Operation" type="submit" value="ChangePassword">Change Password</button>
+<br>
+
+<button name="Operation" type="submit" value="AddCar">Add Car</button>
+<br>
+
+<button name="Operation" type="submit" value="RemoveCar">Remove Car</button>
+<br>
+
+<button name="Operation" type="submit" value="UpdateCar">Update Car</button>
+<br>
+
+<button name="Operation" type="submit" value="ViewCar">View Car</button>
+<br>
+
+<button name="Operation" type="submit" value="ViewFeedback">View Feedback</button>
+<br>
+
+<button name="Operation" type="submit" value="DeleteUser">Remove User</button>
+<br>
+
+<button name="Operation" type="submit" value="Report">Total Cars</button>
+<br>
+
+</form>
+</div>
+
+<div class="Body">
+
+<form action="./UploadServlet" method="post" enctype="multipart/form-data" >
+
+<label id="title">Upload Car</label><br>
+
+<label id="brand">Brand:</label> 
+<input type="text" name="Brand"  required="required">
+
+
+
+<label id="model">Model:</label>
+<input type="text" name="Model" required="required" ><br>
+
+
+
+<label id="colors"> Available Colors:</label>
+<input type="text" name="Colors" required="required">
+
+
+<label id="price"> Price:</label>
+<input type="text" name="Price" required="required"><br><br>
+
+<label id="type">Type:</label>
+<select name="Type" >
+<option value="Upcoming Model" >Upcoming Model</option>
+<option value="New Arrival">New Arrival</option>
+<option value="Existing">Existing</option>
+</select><br>
+
+<label id="photo1">Upload Photo 1:</label>
+<input type="file" name="File1" required="required"><br>
+
+<label id="photo2">Upload Photo 2:</label>
+<input type="file" name="File2" required="required"><br>
+
+
+<label id="photo3"> Upload Photo 3:</label>
+<input type="file" name="File3" required="required"><br>
+
+
+ <input type=submit value="Add Car" class="btn btn-primary" >
+
+
+
+</div>
+
+
+
+
+</form>
+</body>
+</html>

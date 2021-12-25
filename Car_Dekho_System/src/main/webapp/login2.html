@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style/login2.css">
+
+<title>User Login</title>
+</head>
+<body>
+<a href="./login1.html">Admin Login</a>
+
+<h1>
+User Login
+</h1>
+<div class="div1">
+<form action="./LoginServlet" method="post">
+
+<p class="form">
+UserName: <input type="text" name="UserName">
+
+ <br>
+
+&nbsp Password: <input type="Password" name="Password">
+
+<br>
+
+<input type=submit value="Login">
+
+<input type="hidden" name="Mode" value="User">
+</p>
+</form>
+<p class="user">
+<a href="ForgotPassword.jsp?Page=1">Forgot Password?</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="register.html">Create Account</a>
+</p>
+
+</div>
+</body>
+</html>

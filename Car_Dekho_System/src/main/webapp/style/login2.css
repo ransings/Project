@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+body{
+	font-size: 20px;
+	background-color:none;
+	background: url(images/2.jpg);
+	background-position:center;
+	background-size:cover;
+	
+	}
+
+h1{
+color:rgb(255, 255, 255);
+text-align:center;
+font-family:sans-serif;
+font-size: 40px;
+font-style: italic;
+margin:5% 0% 0% 0%;
+	}
+	
+	h2{
+	
+	}
+
+div.div1 {
+	border: 2px outset #400080;
+	border-radius: 20px;
+	width: 35%;
+	height:35%;
+	margin-top: 3%;
+	margin-left: 33.5% ;
+	color: #8000ff;
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	background-color: black;
+	
+	
+	}
+	
+
+input {
+   
+    
+    margin: 10px 10px;
+    box-sizing: border-box;  
+     border-style: inset;
+     padding: 3px;
+     border-color: orange;
+     color:orange;
+}
+input[type="text"]:focus {
+   
+    
+    margin: 10px 10px;
+    box-sizing: border-box;  
+    border-color: aqua;
+     border-style: inset;
+     padding: 3px;
+     color:Black;
+     font-weight: bold;
+}
+input[type=password] {
+   
+    margin: 10px 17px 0% 17px;
+    box-sizing: border-box;  
+    border-color: orange;
+    border-style: inset;
+    
+}
+input[type=password]:focus {
+   
+    margin: 10px 17px 0% 17px;
+    box-sizing: border-box;  
+    border-color: aqua;
+    border-style: inset;
+    
+    
+}
+
+input[type=submit]{
+	text-align: center;
+    	color: #8000ff;
+	    margin:7% 0% 0% 10%;
+		border-color: lime;
+		border-style: outset;
+		padding:1% 2% 1% 2%;
+		background-color: Black;
+		border-radius: 10px;
+		font-size: 15px;
+}
+
+
+p.form{
+	margin:5% 0% 5% 3%;
+	
+}
+p.user{
+	text-align:left;
+	padding:1% 0% 1% 5%;
+	margin:0% 0% 1% 5%;
+}
+
+a{
+	color:white;
+	border-color:white;
+	border-radius:20px;
+	font-size: 20px;
+}
+	
+	

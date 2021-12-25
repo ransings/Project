@@ -1,0 +1,160 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>UploadServlet</servlet-name>
+  	<display-name>UploadServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.UploadServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AdminController</servlet-name>
+  	<display-name>AdminController</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.controller.AdminController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteUserServlet</servlet-name>
+  	<display-name>DeleteUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.DeleteUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>UserController</servlet-name>
+  	<display-name>UserController</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.controller.UserController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>PasswordChange</servlet-name>
+  	<display-name>PasswordChange</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.PasswordChange</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.HomeServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteFeedback</servlet-name>
+  	<display-name>DeleteFeedback</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.DeleteFeedback</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>LogoutServlet1</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sr.servlet.LogoutServlet1</servlet-class>
+  </servlet>
+  
+  
+                                                                         <!-- Mappings -->
+  
+  
+  <servlet-mapping> 
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>UploadServlet</servlet-name>
+  	<url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AdminController</servlet-name>
+  	<url-pattern>/AdminController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteUserServlet</servlet-name>
+  	<url-pattern>/DeleteUserServlet</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>UserController</servlet-name>
+  	<url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>PasswordChange</servlet-name>
+  	<url-pattern>/PasswordChange</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteFeedback</servlet-name>
+  	<url-pattern>/DeleteFeedback</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet1</servlet-name>
+  	<url-pattern>/LogoutServlet1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list><welcome-file>login2.html</welcome-file></welcome-file-list>
+  
+</web-app>

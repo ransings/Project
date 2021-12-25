@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Car-Dekho System</title>
+<link rel="stylesheet" href="style/register.css">
+
+<script type="text/javascript">
+function validate(form){
+	let age=form.Age.value;
+	let pass1=form.Password.value;
+	let pass2=form.Cpassword.value;
+	let contact=form.Contact.value;
+	let phone=/^\d{10}$/;
+	
+	if(age=="") {
+		alert("Invalid Age");
+		return false;
+	}
+	if(age<15 || age>100) {
+			alert("Age must bebetween 16-100");
+			return false;
+		}
+	if(pass1!=pass2){
+		alert("Both password must match");
+		return false;
+	}
+	if(!contact.match(phone)){
+		alert("Invalid Phone Number");
+		return false;
+	}
+}
+
+</script>
+
+</head>
+
+<body>
+<h1>User Registration</h1>
+<form name='form' action="RegisterServlet" method="Post" onsubmit="return validate(form)">
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>First Name:</label><input type="text" name="Fname" placeholder="Enter First Name" required="required">
+<label>Middle Name:</label><input type="text" name="Mname" placeholder="Enter Middle Name" required="required">
+<label>Last Name:</label><input type="text" name="Lname" placeholder="Enter Last Name" required="required">
+<br>
+
+<label id="gender">Gender:</label> 
+<label>Male</label> <input type="radio" name="Gender" value="Male" required="required">
+<label>Female</label> <input type="radio" name="Gender" value="Female" required="required">
+<label>Transgender</label> <input type="radio" name="Gender" value="Transgender">
+
+
+<label id="age">Age:</label><input type="number" name="Age" placeholder="Enter Age" required="required">
+<br>
+<label id="contact">Contact:</label><input type="tel" name="Contact" placeholder="Phone Number" required="required">
+<br>
+<fieldset class="field">
+<legend id="legend">Account Information</legend>
+<label id="mail">E-Mail</label><input type="email" name="Mail" placeholder="E-Mail Address" required="required">
+<br>
+<label id="pass" >Password</label> <input type="text" name="Password" placeholder="Enter Password"  required="required">
+<label id="pass1">Confirm Password</label> <input type="password" name="Cpassword" placeholder="Confirm Password" required="required">
+<br>
+</fieldset>
+</fieldset>
+<input type="submit" value="Register">
+</form>
+
+</body>
+</html>

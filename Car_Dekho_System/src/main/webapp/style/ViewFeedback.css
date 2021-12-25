@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+}
+
+
+                                                       /*Header Divisions*/
+.Header{
+	height:120px;
+	width:100%;
+	background-color:#101010;
+	color:White;
+	border-bottom: medium solid lime;
+	border-left: medium solid yellow; ; 
+	border-right: medium solid yellow;
+	border-radius: 10px;
+}
+
+.HomeD{
+	margin-top: -2.5%;
+}
+
+.LogOutD{
+	margin-top: -2%;
+}
+
+.Logo{
+	background-color: red;
+	width:35%;
+	height: 100%;
+	margin-left: 32%;
+	border-radius: 5px;
+}
+																	/* Header Title And Description */
+
+Label{
+	font-family: sans-serif;
+	margin-left:20%;
+	font-size: 30px;
+	Color:#ffff80;
+	
+	
+}
+
+.Desc{
+	font-size: 10px;
+	margin-left: 23%;
+	line-height: -20px;
+}
+																		/* Header Links */
+a.Home{
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: -2%;
+	
+}
+a.LogOut{
+	color:white;
+	font-size: 18px;
+	margin-left: 92%;
+}
+
+
+													                        /* Menu */
+.menu{
+	height: 552px;
+    width: 20%;
+    background-color: Black;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+p.form{
+	margin-left:5%;
+	padding:2% 0% 2% 0%;
+}
+p{
+	margin-left:5%;
+	padding:3% 0% 2% 0%;
+}
+
+button {
+	margin-left:-5px;
+	margin-top: 7%;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+	padding: 2px 5px;
+	border-style: inset;
+	border-radius: 5px;
+	width: 100%;
+}
+
+																				/* Content Div */
+																																								
+.Delete{
+	
+background-color: black;
+	
+width: 80%;
+	
+height: 486.5px;
+	
+color: white;
+	
+border-radius: 10px;
+	
+margin: -552px 0px 0px 20%;
+	
+padding: 5% 0px 0px 0%;
+}			
+
+#Title{
+	margin-left: 274px;
+	}
+	
+#link{
+	color:white;
+	text-decoration:none;
+}
+	
+#link:hover{
+	color:blue;
+	text-decoration:underline;
+}
+	
+.Table{
+	background: gray;
+	margin: 3% 0px 0px 250px;
+}																
+
+th,td{
+	background: black;
+	padding: 10px;
+	text-align: center;
+}
+
+#feedback{
+	
+font-size: 20px;
+    font-family: -webkit-pictograph;
+    margin-left: 80px;
+    margin-right: 30px; 
+}
+
+#delete{
+	color:white;
+	font-size:30px;
+	text-decoration:none;
+	margin-left:350px;
+	line-height:100px;
+	border-radius:10px;
+	border:lime 3px solid;
+	border-style: inset;
+	padding:2px 8px;
+}
+
+#delete:hover{
+	color:white;
+	background-color:green;
+	border-color:#84ff13;
+	
+}

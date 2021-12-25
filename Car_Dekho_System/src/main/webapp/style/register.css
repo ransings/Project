@@ -1,0 +1,90 @@
+h1{
+	color: White;
+	text-align: center;
+	font-family: monospace;
+	font-style: italic;
+	font-size: 45px;
+	margin-top: -1%;
+}
+body{
+	background-image: url("images/pexels-francesco.jpg");
+	
+}
+fieldset{
+	margin-top: 30px;
+	line-height: 2;
+  background-image: radial-gradient(circle, rgb(255, 128, 0),#00ffff, rgb(255, 128, 64));
+  	border-width: 5px;
+  	border-color: Blue;
+  
+}
+
+legend{
+	color: rgb(255, 255, 128);
+	font-size: 30px;
+}
+
+label {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: rgb(64, 0, 64);
+	margin-right: 10px;
+	margin-left: 15px;
+}
+#age {
+	margin-left: 23.1%;
+	
+}
+#contact{
+	margin-left: 3%;
+}
+
+#gender{
+	margin-left: 3.4%;
+}
+
+#legend{
+	color:Blue;
+}
+
+#mail{
+	margin-left: 4.2%;
+}
+
+input[type="radio"]{
+	margin-left: -10px;
+}
+
+input[type=text],[type=number],[type=password],[type=email],[type=tel]{
+	border-radius: 7px;
+	border-color:#b901fe;
+	border-style: outset;
+	border-width:3px;
+	text-align: center;
+	padding:5px;
+	color: Red;
+	font-family:cursive;
+	font-size: 15px;
+}
+
+input[type=submit]{
+	margin: 3% 0% 0% 43%;
+	border-radius: 7px;
+	border-color:lime;
+	border-style: outset;
+	border-width:3px;
+	text-align: center;
+	padding:5px;
+	color: #40f40b;
+	font-weight:bolder;
+	font-size: 25px;
+	background-color: White;
+}
+
+.field{
+	border-color:lime;
+}
+
+output{
+	color: white;
+}

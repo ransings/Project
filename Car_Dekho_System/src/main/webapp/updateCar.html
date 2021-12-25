@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Update Car</title>
+<link rel="stylesheet" href="style/updateCar.css">
+</head>
+
+<body>
+																<!-- Header -->
+<div class="Header">
+<div class="Logo">
+<br><br>
+<label> Car Dekho System </label><br>
+<label class="Desc">You Can Watch And Compare Cars Using Our Site</label>
+</div>
+<div class="HomeD">
+<a class="Home" href="HomeServlet">Home</a>
+</div>
+<div class="LogOutD">
+<a href="LogoutServlet1" class="LogOut">LogOut</a>
+</div>
+</div>
+
+																		<!-- Menu -->
+
+<div class="menu">
+<form action="AdminController" method="post">
+<p class="form">
+
+<button name="Operation" type="submit" value="ChangePassword">Change Password</button>
+<br>
+
+<button name="Operation" type="submit" value="AddCar">Add Car</button>
+<br>
+
+<button name="Operation" type="submit" value="RemoveCar">Remove Car</button>
+<br>
+
+<button name="Operation" type="submit" value="UpdateCar">Update Car</button>
+<br>
+
+<button name="Operation" type="submit" value="ViewCar">View Car</button>
+<br>
+
+<button name="Operation" type="submit" value="ViewFeedback">View Feedback</button>
+<br>
+
+<button name="Operation" type="submit" value="DeleteUser">Remove User</button>
+<br>
+
+<button name="Operation" type="submit" value="Report">Total Cars</button>
+<br>
+</p>
+</form>
+</div>
+
+
+<div class="Body">
+											<!-- Update Car -->
+											
+
+<form action="UpdateServlet" method="Post">
+
+<Label id="title">Select Car To Update</Label><br>
+
+<label id="brand">Brand:</label>
+ <input type="text" name="Brand"/>
+
+
+<label id="model">Model:</label>
+ <input type="text" name="Model"/><br>
+
+<label id="title">Enter New Properties</label><br>
+
+
+<label id="brand">Brand:</label>
+<input type="text" name="Nbrand"/>
+
+
+<label id="model">Model:</label>
+<input type="text" name="Nmodel"/><br>
+
+
+<label id="colors">Availabe Colors:</label>
+ <input type="text" name="Color"/>
+
+<label id="price">Price:</label>
+<input type="text" name="Price"/><br>
+
+<input type="submit" value="Update"/>
+
+</form>
+
+											
+</div>
+
+
+</body>
+</html>

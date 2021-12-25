@@ -1,0 +1,133 @@
+                                                     /* commom */
+*{
+	margin: 0;
+	padding: 0;
+}
+Body{
+	background-color:gray;
+}
+                                                       /*Header Divisions*/
+.Header{
+	height:120px;
+	width:100%;
+	background-color:#101010;
+	color:White;
+	border-bottom: medium solid lime;
+	border-left: medium solid yellow; ; 
+	border-right: medium solid yellow;
+	border-radius: 10px;
+}
+
+.HomeD{
+	margin-top: -2%;
+}
+
+.LogOutD{
+	margin-top: -2%;
+}
+
+.Logo{
+	background-color: red;
+	width:35%;
+	height: 100%;
+	margin-left: 32%;
+	border-radius: 5px;
+}
+
+																	/* Header Title And Description */
+
+Label{
+	font-family: sans-serif;
+	margin-left:20%;
+	font-size: 30px;
+	Color:#ffff80;
+	
+	
+}
+
+.Desc{
+	font-size: 10px;
+	margin-left: 23%;
+	line-height: -20px;
+}
+																		/* Header Links */
+a.Home{
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: -2%;
+	
+}
+a.LogOut{
+	color:white;
+	font-size: 18px;
+	margin-left: 92%;
+}
+
+                                                                        /* Title */
+
+.Title{
+	margin-top: 1%;
+	height: 5%;
+	margin-left: 5%;
+}
+
+.Compare{
+	color:blue;
+	margin-left: 32%;
+}
+
+                                                                      /* Divisions */
+.MainDiv{
+	margin:0px 10px;
+}
+
+.LeftDiv{
+	height:260px;
+	width:49.5%;
+	margin:10px 10px 0px 0px;
+	background-color:background;
+}
+
+.RightDiv{
+	height:260px;
+	width:49.5%;
+	margin:-260px 0px 0px 50.5%;
+	background-color:background;
+}
+
+.PageDiv{
+	height:50px;
+	width:100%;
+	background-color:Black;
+	margin-top:10px;
+}
+                                                                       /* Images */
+ .LeftImg{                                                                      
+ height:180px;
+ width:55%;
+ margin-left:120px;
+ margin-top:20px; 
+ }  
+                
+ .RightImg{
+ height:180px;
+ width:55%;
+ margin-left:140px;
+ margin-top:20px;
+ }                        
+                                                                         /* Links */       
+                                                                         
+ .LeftLink{
+ margin:0% 0px 0% 220px;
+ color:white;
+ font-size:20px;
+ }          
+ 
+																		/* Page Window */  
+
+.Page{
+	margin-left:38%;
+	color:White;
+	font-size:20px;
+}                                                                                 

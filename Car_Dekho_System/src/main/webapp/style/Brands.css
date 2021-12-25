@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: gray;
+}
+
+.Page{
+	height: 820px;
+	width: 100%;
+	}
+                                                       /*Header Divisions*/
+.Header{
+	height:120px;
+	width:100%;
+	background-color:#101010;
+	color:White;
+	border-bottom: medium solid lime;
+	border-left: medium solid yellow; ; 
+	border-right: medium solid yellow;
+	border-radius: 10px;
+}
+
+.HomeD{
+	margin-top: -2.5%;
+}
+
+.LogOutD{
+	margin-top: -2%;
+}
+
+.Logo{
+	background-color: red;
+	width:35%;
+	height: 100%;
+	margin-left: 32%;
+	border-radius: 5px;
+}
+																	/* Header Title And Description */
+
+Label{
+	font-family: sans-serif;
+	margin-left:20%;
+	font-size: 30px;
+	Color:#ffff80;
+	
+	
+}
+
+.Desc{
+	font-size: 10px;
+	margin-left: 23%;
+	line-height: -20px;
+}
+																		/* Header Links */
+a.Home{
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: -2%;
+	
+}
+a.LogOut{
+	color:white;
+	font-size: 18px;
+	margin-left: 92%;
+}
+
+																/* Main */
+																
+.first{
+	background-color: black;
+	width: 33%;
+	height: 236px;
+	margin: 10px 0px 0px 0.333%;
+}	
+
+.second{
+	background-color: black;
+	width: 33%;
+	height: 236px;
+	margin: -236px 0px 0px 33.666%;
+}
+
+.third{
+	background-color: black;
+	width: 33%;
+	height: 236px;
+	margin: -236px 0px 0px 66.99%;
+}
+
+img{
+	height: 200px;
+	width:99%;
+	margin:0.5%;
+}
+#Name{
+	margin-left: 126px;
+	color: white;
+	font-size: 25px;
+	text-decoration:none;
+	line-height: 0px;
+}
+.PageLabel{
+	margin-left:38%;
+	color:White;
+	font-size:20px;
+}
